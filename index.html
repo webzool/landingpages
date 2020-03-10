@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page #1</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <p class="m-0 p-0">Call Us <a class="font-weight-bold text-dark" href="tel:(855) 780-9525">(855) 780-9525</a>
+        </p>
+        <a class="navbar-brand ml-auto" href="#"><img src="assets/images/example-logo.svg" alt=""></a>
+    </nav>
+
+    <main class="pt-5 pb-5">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="form-box">
+                        <form class="wizard-container" method="POST" action="#" id="js-wizard-form">
+                            <p>Your Progress</p>
+                            <div class="progress" id="js-progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                    aria-valuemax="100" style="width: 20%;">
+                                    <span class="progress-val">20</span>
+                                </div>
+                            </div>
+                            <ul class="nav nav-tab">
+                                <li class="active">
+                                    <a href="#tab1" data-toggle="tab">1</a>
+                                </li>
+                                <li>
+                                    <a href="#tab2" data-toggle="tab">1</a>
+                                </li>
+                                <li>
+                                    <a href="#tab3" data-toggle="tab">1</a>
+                                </li>
+                                <li>
+                                    <a href="#tab4" data-toggle="tab">1</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="tab1">
+                                    <h2 class="pb-2">What is Your Average<br> Electric Bill?</h2>
+                                    <div class="input-group">
+                                        <div class="radio-btn-group d-flex w-100 justify-content-center ">
+                                            <div class="radio-btn-group__btn">
+                                                <input id="utilityBill-1" type="radio" name="utilityBill"
+                                                    value="$0-100">
+                                                <label class="radio-label" for="utilityBill-1">$0-100</label>
+                                            </div>
+                                            <div class="radio-btn-group__btn">
+                                                <input id="utilityBill-2" type="radio" name="utilityBill"
+                                                    value="$101-200">
+                                                <label class="radio-label" for="utilityBill-2">$101-200</label>
+                                            </div>
+                                            <div class="radio-btn-group__btn">
+                                                <input id="utilityBill-3" type="radio" name="utilityBill"
+                                                    value="$201-300" checked="checked">
+                                                <label class="radio-label" for="utilityBill-3">$201-300</label>
+                                            </div>
+                                            <div class="radio-btn-group__btn">
+                                                <input id="utilityBill-4" type="radio" name="utilityBill"
+                                                    value="$301-400">
+                                                <label class="radio-label" for="utilityBill-4">$301-400</label>
+                                            </div>
+                                            <div class="radio-btn-group__btn">
+                                                <input id="utilityBill-5" type="radio" name="utilityBill" value="$401+">
+                                                <label class="radio-label" for="utilityBill-5">$401-500+</label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="btn-next-con">
+                                        <a class="text-white btn-next" href="#">Next</a>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tab2">
+                                    <h2 class="pb-2">Where would this<br> project take place?</h2>
+                                    <div class="input-group">
+                                        <input class="form-control" placeholder="Zip Code" type="text" name="code">
+                                    </div>
+                                    <div class="btn-next-con">
+                                        <a class="text-white btn-back" href="#">back</a>
+                                        <a class="text-white btn-next" href="#">Next</a>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tab3">
+                                    <h2 class="pb-2">How much shade<br> does your roof get?</h2>
+                                    <div class="input-group mb-0">
+                                        <div class="radiolist pt-4 control-group">
+                                              <input type="radio" name="awesome-radiobox" id="awesome_radio" autofocus />
+                                              <label for="awesome_radio">Full sun most of the day</label>
+                                        
+                                              <input type="radio" name="awesome-radiobox" id="awesome_radio2" checked />
+                                              <label for="awesome_radio2">Partially Shaded</label>
+                                        
+                                              <input type="radio" name="awesome-radiobox" id="awesome_radio3" />
+                                              <label for="awesome_radio3">Shaded most of the day</label>
+
+                                              <input type="radio" name="awesome-radiobox" id="awesome_radio4" />
+                                              <label for="awesome_radio4">Not sure</label>
+                                            </div>
+                                    </div>
+                                    <div class="btn-next-con pt-0">
+                                        <a class="text-white btn-back" href="#">back</a>
+                                        <a class="text-white btn-next" href="#">Next</a>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tab4">
+                                    <h2 class="pb-2">Enter your address to find the<br> best results for your area.</h2>
+                                    <div class="input-group">
+                                        <input class="form-control" placeholder="Name" type="text" name="code">
+                                    </div>
+                                    <div class="input-group">
+                                        <input class="form-control" placeholder="Phone number" type="text" name="code">
+                                    </div>
+                                    <div class="input-group">
+                                        <input class="form-control" placeholder="Email" type="text" name="code">
+                                    </div>
+                                    <div class="btn-next-con">
+                                        <a class="text-white btn-back" href="#">back</a>
+                                        <a class="text-white btn-last" href="#">Submit</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="pt-5 pb-5">
+        <div class="container pt-5 pb-5">
+            <h2 class="text-center font-weight-bold h3 pb-4">What is Lead Pages Used For ?</h2>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="pro-box">
+                        <div class="icon-bg">
+                            <img src="assets/images/icon.png" alt="">
+                        </div>
+                        <p class="lead text-center pt-3 font-weight-bold pb-2">Collect Quality Leads</p>
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectLorem ipsum dolor sitLorem ipsum dolor
+                            sit amet, </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="pro-box">
+                        <div class="icon-bg">
+                            <img src="assets/images/icon.png" alt="">
+                        </div>
+                        <p class="lead text-center pt-3 font-weight-bold pb-2">Collect Quality Leads</p>
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectLorem ipsum dolor sitLorem ipsum dolor
+                            sit amet,</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="pro-box">
+                        <div class="icon-bg">
+                            <img src="assets/images/icon.png" alt="">
+                        </div>
+                        <p class="lead text-center pt-3 font-weight-bold pb-2">Collect Quality Leads</p>
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectLorem ipsum dolor sitLorem ipsum dolor
+                            sit amet,</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pt-5 pb-5">
+        <div class="container">
+            <h2 class="text-center font-weight-bold h3 pb-3">What could you save with sunshine?</h2>
+            <p class="text-center w-90 pb-3">Whether you want more control over your electricity costs or an easy way to
+                join
+                our
+                growing movement to power the world with clean, abundant sunshine, we make going solar a positive
+                experience.</p>
+
+        </div>
+        <div class="container-fluid bg-lighterblue pt-5 pb-5">
+            <div class="row">
+                <div class="col-lg-7 position-relative">
+                    <img id="image-absolute" class="position-absolute" src="assets/images/image.png" class="mw-100"
+                        alt="">
+                </div>
+                <div class="col-lg-5">
+                    <h3 class="pb-2">What We Do ?</h3>
+                    <ul id="list" class="list-unstyled">
+                        <li>Lorem ipsum dolor sit amet, consectetuer </li>
+                        <li>Lorem ipsum dolor sit amet, consectetuer adipisc</li>
+                        <li>Lorem ipsum dolor sit amet, consectetuer adi</li>
+                        <li>Lorem ipsum dolor sit amet, consectetuer adipisc</li>
+                        <li>Save Big onSecurity Systems</li>
+                        <li>Lorem ipsum dolor sit amet, consectetuer a</li>
+                        <li>Lorem ipsum dolor sit amet, consectetuer adipisc</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pt-5 pb-5">
+        <div class="container pt-5 pb-5">
+            <h2 class="text-center font-weight-bold h3 pb-3">What could you save with sunshine?</h2>
+            <div class="row">
+                <div class="col-lg-6 ml-auto mr-auto">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Name" class="form-control" aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" class="form-control">
+                        </div>
+                        <button type="submit" class="btn w-50 d-block m-auto btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="pt-5 pb-5">
+
+    </footer>
+    <!--Bootstrap JS and jQuery-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <!-- Form Vendors JS-->
+    <script src="assets/form/jquery.validate.min.js"></script>
+    <script src="assets/form/jquery.bootstrap.wizard.min.js"></script>
+
+    <!-- Form JS-->
+    <script src="assets/form/global.js"></script>
+</body>
+
+</html>
