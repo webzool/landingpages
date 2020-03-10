@@ -244,6 +244,12 @@ html {
 /**
    * A very simple reset that sits on top of Normalize.css.
    */
+html,   
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body,
 h1,
 h2,
