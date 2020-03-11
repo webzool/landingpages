@@ -1,8 +1,24 @@
 main {
   background: url(../images/main-bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
   min-height: 20rem;
+}
+
+#lp2-main {
+  background: url(../images/image2.png) !important;
+  min-height: 75vh;
+  background-position: center center !important;
+  background-size: cover !important;
+  position: relative;
+}
+
+.bottom-container {
+  position: absolute;
+  bottom: 0;
+  height: 6rem;
+  background: rgba(255,255,255, 0.6);
+  width: 100%;
 }
 
 .form-box {
@@ -60,7 +76,24 @@ main {
   margin: auto;
 }
 
-.form-control {
+.row-border {
+  border: 1px solid #5A5858;
+}
+
+.sides-border {
+  border-left: 1px solid #5A5858;
+  border-right: 1px solid #5A5858;
+}
+
+.right-border {
+  border-right: 1px solid #5A5858;
+}
+
+.bg-purpleblue {
+  background: #668CBC;;
+}
+
+.bottom-form .form-control {
   border: none;
   border-bottom: 1px solid #b4b4b4;
   font-size: 16px;
@@ -69,8 +102,9 @@ main {
   background: transparent;
 }
 
-.form-control:hover,
-.form-control:focus {
+
+.bottom-form .form-control:hover,
+.bottom-form .form-control:focus {
   box-shadow: none;
   border-bottom: 1px solid #b4b4b4;
   background: transparent;
@@ -244,10 +278,10 @@ html {
 /**
    * A very simple reset that sits on top of Normalize.css.
    */
-html,   
+html,
 body {
-    max-width: 100%;
-    overflow-x: hidden;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body,
