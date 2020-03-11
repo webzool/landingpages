@@ -1,8 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai&display=swap');
+
+
+body {
+  font-family: 'Hind Madurai', sans-serif;
+}
+
+p, li, a, button, span, h1, h2, h3{
+  font-family: 'Hind Madurai', sans-serif !important;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+}
+
 main {
   background: url(../images/main-bg.png);
   background-repeat: no-repeat !important;
   background-size: cover !important;
   min-height: 20rem;
+}
+
+.md-image {
+  background: url(../images/md-image.png);
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 #lp2-main {
@@ -11,6 +32,30 @@ main {
   background-position: center center !important;
   background-size: cover !important;
   position: relative;
+}
+
+#lp3-main {
+  min-height: 75vh;
+  background: none;
+}
+
+.pro3-box {
+  background: rgba(174, 86, 113, 0.05);
+  max-width: 95%;
+  display: block;
+  margin: auto;
+}
+
+.bg-lightpink {
+  background: rgba(174, 86, 113, 0.05);
+}
+
+.color-pink {
+  color: #AE5671;
+}
+
+.px20 {
+  font-size: 20px;
 }
 
 .bottom-container {
