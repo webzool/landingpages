@@ -163,6 +163,14 @@ main {
   border-radius: 6px;
 }
 
+.color-primary {
+  color: #0a2543 !important;
+}
+
+.main-layer {
+  background-color: rgba(255,255,255,0.2);
+}
+
 .btn-primary:hover {
   background: rgba(10, 37, 67, 0.7);
   border-color: rgba(10, 37, 67, 0.7);
