@@ -55,65 +55,50 @@
                                     <li>
                                         <a href="#tab4" data-toggle="tab">1</a>
                                     </li>
+                                    <li>
+                                        <a href="#tab5" data-toggle="tab">1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#tab6" data-toggle="tab">1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#tab7" data-toggle="tab">1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#tab8" data-toggle="tab">1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#tab9" data-toggle="tab">1</a>
+                                    </li>
                                 </ul>
                                 <div class="tab-content">
                                     <div class="tab-pane active" id="tab1">
-                                        <h2 class="pb-2">What is Your Average<br> Electric Bill?</h2>
-                                        <div class="input-group">
-                                            <div class="radio-btn-group d-flex w-100 justify-content-center ">
-                                                <div class="radio-btn-group__btn">
-                                                    <input id="utilityBill-1" type="radio" name="utilityBill"
-                                                        value="$0-100">
-                                                    <label class="radio-label" for="utilityBill-1">$0-100</label>
-                                                </div>
-                                                <div class="radio-btn-group__btn">
-                                                    <input id="utilityBill-2" type="radio" name="utilityBill"
-                                                        value="$101-200">
-                                                    <label class="radio-label" for="utilityBill-2">$101-200</label>
-                                                </div>
-                                                <div class="radio-btn-group__btn">
-                                                    <input id="utilityBill-3" type="radio" name="utilityBill"
-                                                        value="$201-300" checked="checked">
-                                                    <label class="radio-label" for="utilityBill-3">$201-300</label>
-                                                </div>
-                                                <div class="radio-btn-group__btn">
-                                                    <input id="utilityBill-4" type="radio" name="utilityBill"
-                                                        value="$301-400">
-                                                    <label class="radio-label" for="utilityBill-4">$301-400</label>
-                                                </div>
-                                                <div class="radio-btn-group__btn">
-                                                    <input id="utilityBill-5" type="radio" name="utilityBill"
-                                                        value="$401+">
-                                                    <label class="radio-label" for="utilityBill-5">$401-500+</label>
-                                                </div>
-                                            </div>
-
+                                        <div class="input-group pt-3 pb-3">
+                                            <input class="form-control" placeholder="Zip code" type="text" name="code">
                                         </div>
                                         <div class="btn-next-con">
                                             <a class="text-white btn-next" href="#">Next</a>
                                         </div>
                                     </div>
                                     <div class="tab-pane" id="tab2">
-                                        <h2 class="pb-2">Where would this<br> project take place?</h2>
-                                        <div class="input-group">
-                                            <input class="form-control" placeholder="Zip Code" type="text" name="code">
-                                        </div>
-                                        <div class="btn-next-con">
-                                            <a class="text-white btn-back" href="#">back</a>
-                                            <a class="text-white btn-next" href="#">Next</a>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane" id="tab3">
-                                        <h2 class="pb-2">Type of solar panel</h2>
+                                        <h2 class="pb-2">What kind of solar power solution are you looking for?</h2>
                                         <div class="input-group mb-0">
                                             <div class="radiolist pt-4 control-group">
                                                 <input type="radio" name="awesome-radiobox" id="awesome_radio"
                                                     autofocus />
-                                                <label for="awesome_radio">For your home</label><br>
+                                                <label for="awesome_radio">Solar Electricity for my Home</label><br>
 
                                                 <input type="radio" name="awesome-radiobox" id="awesome_radio2"
                                                     checked />
-                                                <label for="awesome_radio2">For your business</label>
+                                                <label for="awesome_radio2">Solar Water Heating for my Home</label>
+
+                                                <input type="radio" name="awesome-radiobox" id="awesome_radio2"
+                                                checked />
+                                            <label for="awesome_radio2">Solar Electricity & Water Heating for my Home</label>
+
+                                            <input type="radio" name="awesome-radiobox" id="awesome_radio2"
+                                                checked />
+                                            <label for="awesome_radio2">Solar for my Business</label>
 
 
                                             </div>
@@ -123,21 +108,192 @@
                                             <a class="text-white btn-next" href="#">Next</a>
                                         </div>
                                     </div>
+                                    <div class="tab-pane" id="tab3">
+                                        <h2 class="pb-2">How much sun exposure does your property get?</h2>
+                                        <div class="input-group">
+                                            <div class="radio-btn-group d-flex w-100 justify-content-center ">
+                                                <div class="radio-btn-group__btn">
+                                                    <input id="utilityBill-1" type="radio" name="utilityBill"
+                                                        value="$0-100">
+                                                    <label class="radio-label" for="utilityBill-1">Full Sun</label>
+                                                </div>
+                                                <div class="radio-btn-group__btn">
+                                                    <input id="utilityBill-2" type="radio" name="utilityBill"
+                                                        value="$101-200">
+                                                    <label class="radio-label" for="utilityBill-2">Partial Sun</label>
+                                                </div>
+                                                <div class="radio-btn-group__btn">
+                                                    <input id="utilityBill-3" type="radio" name="utilityBill"
+                                                        value="$201-300" checked="checked">
+                                                    <label class="radio-label" for="utilityBill-3">Partial Sun</label>
+                                                </div>
+                                                <div class="radio-btn-group__btn">
+                                                    <input id="utilityBill-4" type="radio" name="utilityBill"
+                                                        value="$301-400">
+                                                    <label class="radio-label" for="utilityBill-4">Mostly Shaded</label>
+                                                </div>
+                                                <div class="radio-btn-group__btn">
+                                                    <input id="utilityBill-5" type="radio" name="utilityBill"
+                                                        value="$401+">
+                                                    <label class="radio-label" for="utilityBill-5">Not Sure</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="btn-next-con pt-0">
+                                            <a class="text-white btn-back" href="#">back</a>
+                                            <a class="text-white btn-next" href="#">Next</a>
+                                        </div>
+                                    </div>
                                     <div class="tab-pane" id="tab4">
-                                        <h2 class="pb-2">Enter your address to find the<br> best results for your area.
+                                        <h2 class="pb-2">Where would this<br> project take place?</h2>
+                                        <div class="input-group">
+                                            <select class="form-control" name="" id="">
+                                                <option value="1">Ambit Energy</option>
+                                                <option value="2">Belmont Electric Light Department</option>
+                                                <option value="3">Berkshire Company</option>
+                                                <option value="4">Braintree Electric Light Department</option>
+                                                <option value="5">Chicopee Electric Light Department</option>
+                                                <option value="6">City of Fitchburg</option>
+                                                <option value="7">Hingham Light Department</option>
+                                                <option value="8">Holden Municipal Light Department</option>
+                                                <option value="9">Holyoke Gas and Electric</option>
+                                                <option value="10">Hudson Light and Power</option>
+                                                <option value="11">Ipswich Utility Department</option>
+                                                <option value="12">Mansfield Municipal Electric</option>
+                                                <option value="13">Marblehead Electric Light Department</option>
+                                                <option value="14">Massachusetts Electric</option>
+                                                <option value="15">Massachusetts Municipal Wholesale Electric Company (MMWEC)</option>
+                                                <option value="16">Middleborough Gas and Electric</option>
+                                                <option value="17">Nantucket Electric</option>
+                                                <option value="18">National Grid</option>
+                                                <option value="19">North Attleborough Electric Department</option>
+                                                <option value="20">Northeast Utilities</option>
+                                                <option value="21">Norwood Municipal Light and Power</option>
+                                                <option value="22">NSTAR</option>
+                                                <option value="23">Paxton Municipal Light Department</option>
+                                                <option value="24">Peabody Municipal Light Plant</option>
+                                                <option value="25">Reading Municipal Light Department</option>
+                                                <option value="26">Rowley Electric Light Department</option>
+                                                <option value="27">SELCO</option>
+                                                <option value="28">Sterling Municipal Light Department</option>
+                                                <option value="29">Taunton Municipal Lighting Plant (TMLP)</option>
+                                                <option value="30">Templeton Municipal Light Co</option>
+                                                <option value="31">Wakefield Municipal Gas and Light Department</option>
+                                                <option value="32">Western Massachusetts Electric</option>
+                                                <option value="33">Westfield Gas and Electric Department</option>
+                                                <option value="34">Viridian</option>
+                                                <option value="35">Other</option>
+                                            </select>
+                                        </div>
+                                        <div class="btn-next-con">
+                                            <a class="text-white btn-back" href="#">back</a>
+                                            <a class="text-white btn-next" href="#">Next</a>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="tab5">
+                                        <h2 class="pb-2">
+                                            What is your average monthly electricity bill?</h2>
+                                        <div class="input-group">
+                                            <div class="radio-btn-group d-flex w-100 justify-content-center ">
+                                                <div class="radio-btn-group__btn">
+                                                    <input id="utilityBill-1" type="radio" name="utilityBill"
+                                                        value="$0-100">
+                                                    <label class="radio-label" for="utilityBill-1">0$ - 100$</label>
+                                                </div>
+                                                <div class="radio-btn-group__btn">
+                                                    <input id="utilityBill-2" type="radio" name="utilityBill"
+                                                        value="$101-200">
+                                                    <label class="radio-label" for="utilityBill-2">100$ - 200$</label>
+                                                </div>
+                                                <div class="radio-btn-group__btn">
+                                                    <input id="utilityBill-3" type="radio" name="utilityBill"
+                                                        value="$201-300" checked="checked">
+                                                    <label class="radio-label" for="utilityBill-3">200$ - 300$</label>
+                                                </div>
+                                                <div class="radio-btn-group__btn">
+                                                    <input id="utilityBill-4" type="radio" name="utilityBill"
+                                                        value="$301-400">
+                                                    <label class="radio-label" for="utilityBill-4">400$ - 500$</label>
+                                                </div>
+                                                <div class="radio-btn-group__btn">
+                                                    <input id="utilityBill-5" type="radio" name="utilityBill"
+                                                        value="$401+">
+                                                    <label class="radio-label" for="utilityBill-5">$500+</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="btn-next-con pt-0">
+                                            <a class="text-white btn-back" href="#">back</a>
+                                            <a class="text-white btn-next" href="#">Next</a>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="tab6">
+                                        <h2 class="pb-2">
+                                            Property Type</h2>
+                                        <div class="input-group">
+                                            <div class="radio-btn-group d-flex w-100 justify-content-center ">
+                                                <div class="radio-btn-group__btn">
+                                                    <input id="utilityBill-1" type="radio" name="utilityBill"
+                                                        value="$0-100">
+                                                    <label class="radio-label" for="utilityBill-1">Owned</label>
+                                                </div>
+                                                <div class="radio-btn-group__btn">
+                                                    <input id="utilityBill-2" type="radio" name="utilityBill"
+                                                        value="$101-200">
+                                                    <label class="radio-label" for="utilityBill-2">Rented</label>
+                                                </div>
+                                                <div class="radio-btn-group__btn">
+                                                    <input id="utilityBill-3" type="radio" name="utilityBill"
+                                                        value="$201-300" checked="checked">
+                                                    <label class="radio-label" for="utilityBill-3">Business</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="btn-next-con pt-0">
+                                            <a class="text-white btn-back" href="#">back</a>
+                                            <a class="text-white btn-next" href="#">Next</a>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="tab7">
+                                        <h2 class="pb-2">
+                                            What is your name?</h2>
+                                            <div class="input-group">
+                                                <input class="form-control" placeholder="First name" type="text" name="code">
+                                            </div>
+                                            <div class="input-group">
+                                                <input class="form-control" placeholder="Last name" type="text" name="code">
+                                            </div>
+                                        <div class="btn-next-con pt-0">
+                                            <a class="text-white btn-back" href="#">back</a>
+                                            <a class="text-white btn-next" href="#">Next</a>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="tab8">
+                                        <h2 class="pb-2">
+                                            Personal Information</h2>
+                                            <div class="input-group">
+                                                <input class="form-control" placeholder="Phone number" type="text" name="code">
+                                            </div>
+                                            <div class="input-group">
+                                                <input class="form-control" placeholder="Email" type="email" name="code">
+                                            </div>
+                                        <div class="btn-next-con pt-0">
+                                            <a class="text-white btn-back" href="#">back</a>
+                                            <a class="text-white btn-next" href="#">Next</a>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="tab9">
+                                        <h2 class="pb-2">Address
                                         </h2>
                                         <div class="input-group">
-                                            <input class="form-control" placeholder="Name" type="text" name="code">
+                                            <input class="form-control" placeholder="City" type="text" name="code">
                                         </div>
                                         <div class="input-group">
-                                            <input class="form-control" placeholder="Surname" type="text" name="code">
+                                            <input class="form-control" placeholder="State" type="text" name="code">
                                         </div>
                                         <div class="input-group">
-                                            <input class="form-control" placeholder="Phone number" type="text"
+                                            <input class="form-control" placeholder="Zip code" type="text"
                                                 name="code">
-                                        </div>
-                                        <div class="input-group">
-                                            <input class="form-control" placeholder="Email" type="text" name="code">
                                         </div>
                                         <div class="btn-next-con">
                                             <a class="text-white btn-back" href="#">back</a>
@@ -192,7 +348,7 @@
             </div>
         </div>
     </section>
-    <section class="pt-5 pb-5">
+    <section class="pt-5">
         <div class="container pb-5">
             <div class="row">
                 <div class="col-lg-6 ml-auto mr-auto">
@@ -202,12 +358,6 @@
                         easy way to join our growing movement to power the world with clean, abundant sunshine, we make
                         going solar a positive experience.</p>
 
-                    <form class="bottom-form d-block m-auto lg-mw-25">
-                        <div class="form-group">
-                            <input type="text" placeholder="Zip code" class="form-control" aria-describedby="emailHelp">
-                        </div>
-                        <button type="submit" class="btn w-50 d-block m-auto btn-next text-white">Submit</button>
-                    </form>
                 </div>
             </div>
         </div>
@@ -231,54 +381,6 @@
                         <li>With a purchased system, your solar panels are yours to produce your own electricity
                             forever, increasing your quality of life (as well as the value of your home)!</li>
                     </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="pt-5 pb-5">
-        <div class="container pt-5 pb-5">
-            <h2 class="text-center font-weight-bold h3 pb-3">Take Control of your Electricity</h2>
-            <div class="row">
-                <div class="col-lg-12 ml-auto mr-auto">
-                    <form class="bottom-form">
-                        <div class="form-row">
-                            <div class="form-group col-md-4">
-                                <input type="text" placeholder="Zip Code" class="form-control" aria-describedby="emailHelp">
-                            </div>
-                            <div class="form-group col-md-4">
-                                <input type="email" placeholder="First name" class="form-control">
-                            </div>
-                            <div class="form-group col-md-4">
-                                <input type="text" placeholder="Last name" class="form-control" aria-describedby="emailHelp">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-4">
-                                <input type="email" placeholder="Email" class="form-control">
-                            </div>
-                            <div class="form-group col-md-4">
-                                <input type="text" placeholder="Phone Number" class="form-control" aria-describedby="emailHelp">
-                            </div>
-                            <div class="form-group col-md-4">
-                              <select class="form-control" name="" id="">
-                                  <option default value="">Avarage Monthly Electric Bill</option>
-                                  <option value="">$0 - 50</option>
-                                  <option value="">$51 - 100</option>
-                                  <option value="">$101 - 150</option>
-                                  <option value="">$151 - 200</option>
-                                  <option value="">$201 - 300</option>
-                                  <option value="">$301 - 400</option>
-                                  <option value="">$401 - 500</option>
-                                  <option value="">$501 - 600</option>
-                                  <option value="">$601 - 700</option>
-                                  <option value="">$701 - 800</option>
-                                  <option value="">$801+</option>
-                              </select>
-                            </div>
-                        </div>
-                       
-                        <button type="submit" class="btn w-25 d-block m-auto btn-next text-white">Submit</button>
-                    </form>
                 </div>
             </div>
         </div>
