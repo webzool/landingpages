@@ -16,9 +16,9 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <p class="m-0 p-0">Call Us <a class="font-weight-bold text-dark" href="tel:(855) 780-9525">(855) 780-9525</a>
-        </p>
-        <a class="navbar-brand ml-auto font-weight-bold" href="#">HomeSolarToday</a>
+        <!--<p class="m-0 p-0">Call Us <a class="font-weight-bold text-dark" href="tel:(855) 780-9525">(855) 780-9525</a>
+        </p>-->
+        <a class="navbar-brand ml-auto mr-auto font-weight-bold" href="#">HomeSolarToday</a>
     </nav>
 
     <main>
@@ -206,7 +206,7 @@
                         <div class="form-group">
                             <input type="text" placeholder="Zip code" class="form-control" aria-describedby="emailHelp">
                         </div>
-                        <button type="submit" class="btn w-100 d-block m-auto btn-next text-white">Submit</button>
+                        <button type="submit" class="btn w-50 d-block m-auto btn-next text-white">Submit</button>
                     </form>
                 </div>
             </div>
@@ -239,15 +239,45 @@
         <div class="container pt-5 pb-5">
             <h2 class="text-center font-weight-bold h3 pb-3">Take Control of your Electricity</h2>
             <div class="row">
-                <div class="col-lg-6 ml-auto mr-auto">
+                <div class="col-lg-12 ml-auto mr-auto">
                     <form class="bottom-form">
-                        <div class="form-group">
-                            <input type="text" placeholder="Name" class="form-control" aria-describedby="emailHelp">
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <input type="text" placeholder="Zip Code" class="form-control" aria-describedby="emailHelp">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <input type="email" placeholder="First name" class="form-control">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <input type="text" placeholder="Last name" class="form-control" aria-describedby="emailHelp">
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Email" class="form-control">
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <input type="email" placeholder="Email" class="form-control">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <input type="text" placeholder="Phone Number" class="form-control" aria-describedby="emailHelp">
+                            </div>
+                            <div class="form-group col-md-4">
+                              <select class="form-control" name="" id="">
+                                  <option default value="">Avarage Monthly Electric Bill</option>
+                                  <option value="">$0 - 50</option>
+                                  <option value="">$51 - 100</option>
+                                  <option value="">$101 - 150</option>
+                                  <option value="">$151 - 200</option>
+                                  <option value="">$201 - 300</option>
+                                  <option value="">$301 - 400</option>
+                                  <option value="">$401 - 500</option>
+                                  <option value="">$501 - 600</option>
+                                  <option value="">$601 - 700</option>
+                                  <option value="">$701 - 800</option>
+                                  <option value="">$801+</option>
+                              </select>
+                            </div>
                         </div>
-                        <button type="submit" class="btn w-50 d-block m-auto btn-next text-white">Submit</button>
+                       
+                        <button type="submit" class="btn w-25 d-block m-auto btn-next text-white">Submit</button>
                     </form>
                 </div>
             </div>

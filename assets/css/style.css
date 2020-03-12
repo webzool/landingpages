@@ -156,6 +156,10 @@ main {
   background: transparent;
 }
 
+nav a {
+  font-size: 1.75rem !important;
+}
+
 .btn-primary {
   margin-top: 1.5rem;
   background: #0a2543;
