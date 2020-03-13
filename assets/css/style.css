@@ -34,7 +34,6 @@ main {
 
 #lp2-main {
   background: url(../images/image2.png) !important;
-  min-height: 75vh;
   background-position: center center !important;
   background-size: cover !important;
   position: relative;
