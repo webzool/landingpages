@@ -6,38 +6,320 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Windows for you</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+       <!-- Bootstrap CSS -->
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+   <!-- Custom CSS -->
+   <link rel="stylesheet" href="assets/css/style.css">
+   <!-- Google Tag Manager -->
+   <script>(function (w, d, s, l, i) {
+           w[l] = w[l] || []; w[l].push({
+               'gtm.start':
+                   new Date().getTime(), event: 'gtm.js'
+           }); var f = d.getElementsByTagName(s)[0],
+               j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                   'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+       })(window, document, 'script', 'dataLayer', 'GTM-NQTRDBV');</script>
+   <!-- End Google Tag Manager -->
 </head>
 
 <body>
+   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQTRDBV" height="0" width="0"
+           style="display:none;visibility:hidden"></iframe></noscript>
     <main id="lp3-main">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <p class="m-0 p-0 px20">Call Us <a class="font-weight-bold  color-pink" href="tel:(855) 780-9525">(855)
-                    780-9525</a>
-            </p>
-            <a class="navbar-brand ml-auto" href="#"><img src="assets/images/example-logo.svg" alt=""></a>
+
+            <a class="navbar-brand ml-auto mr-auto" href="">
+                <h1 class="font-weight-bold text-uppercase color-primary">homewindows4u.com</h1>
+            </a>
         </nav>
-        <div class="container-fluid pt-3">
+        <div class="container pt-3">
             <div class="row">
-                <div class="col-md-5 p-5 order-md-1 order-sm-2 order-2 my-auto">
-                    <h1 class="font-weight-bold color-pink pb-5">House Windows Deals
-                    </h1>
-                    <p class="lead">Compare Window Replacement Services Near Your Location. Submit the Form To Start!
-                    </p>
-                    <form class="bottom-form pt-4">
-                        <div class="form-group">
-                            <input type="text" placeholder="Zip Code" class="form-control" aria-describedby="emailHelp">
+                <div class="col-md-6 p-5 order-md-1 order-sm-2 order-2 my-auto">
+                    <form class="wizard-container bottom-form" method="POST" action="#" id="js-wizard-form">
+                        <p>Your Progress</p>
+                        <div class="progress" id="js-progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                                aria-valuemax="100" style="width: 15%;">
+                                <span class="progress-val">12.5</span>
+                            </div>
                         </div>
-                        <button type="submit" class="btn btn-next text-white">Submit</button>
+                        <ul class="nav nav-tab">
+                            <li class="active">
+                                <a href="#tab1" data-toggle="tab">1</a>
+                            </li>
+                            <li>
+                                <a href="#tab2" data-toggle="tab">1</a>
+                            </li>
+                            <li>
+                                <a href="#tab3" data-toggle="tab">1</a>
+                            </li>
+                            <li>
+                                <a href="#tab4" data-toggle="tab">1</a>
+                            </li>
+                            <li>
+                                <a href="#tab5" data-toggle="tab">1</a>
+                            </li>
+                            <li>
+                                <a href="#tab6" data-toggle="tab">1</a>
+                            </li>
+                            <li>
+                                <a href="#tab7" data-toggle="tab">1</a>
+                            </li>
+                            <li>
+                                <a href="#tab8" data-toggle="tab">1</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tab1">
+                                <h2 class="pb-2">What kind of solar power solution are you looking for?</h2>
+                                <div class="input-group mb-0">
+                                    <div class="radiolist pt-4 control-group">
+                                        <input type="radio" name="solar-radio" id="solar-electricity-for-home" autofocus
+                                            value="Solar Electricity for my Home" />
+                                        <label for="solar-electricity-for-home">Solar Electricity for my
+                                            Home</label><br>
+
+                                        <input type="radio" name="solar-radio" id="solar-water-heating-for-home"
+                                            value="Solar Water Heating for my Home" />
+                                        <label for="solar-water-heating-for-home">Solar Water Heating for my
+                                            Home</label>
+
+                                        <input type="radio" name="solar-radio"
+                                            id="solar-electricity-water-heating-for-home"
+                                            value="Solar Electricity & Water Heating for my Home" />
+                                        <label for="solar-electricity-water-heating-for-home">Solar Electricity
+                                            & Water Heating for my Home</label>
+
+                                        <input type="radio" name="solar-radio" id="solar-for-business"
+                                            value="Solar for my Business" />
+                                        <label for="solar-for-business">Solar for my Business</label>
+
+                                    </div>
+                                </div>
+                                <div class="text-left btn-next-con pt-0">
+                                    <a class="text-white btn-next">Next</a>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab2">
+                                <h2 class="pb-2">How much sun exposure does your property get?</h2>
+                                <div class="input-group">
+                                    <div class="radio-btn-group d-flex w-100 justify-content-center ">
+                                        <div class="radio-btn-group__btn">
+                                            <input id="sun1" type="radio" name="sun" value="Full Sun">
+                                            <label class="radio-label" for="sun1">Full Sun</label>
+                                        </div>
+                                        <div class="radio-btn-group__btn">
+                                            <input id="sun2" type="radio" name="sun" value="Partial Sun">
+                                            <label class="radio-label" for="sun2">Partial Sun</label>
+                                        </div>
+                                        <div class="radio-btn-group__btn">
+                                            <input id="sun3" type="radio" name="sun" value="Mostly Shaded">
+                                            <label class="radio-label" for="sun3">Mostly Shaded</label>
+                                        </div>
+                                        <div class="radio-btn-group__btn">
+                                            <input id="sun4" type="radio" name="sun" value="Not Sure">
+                                            <label class="radio-label" for="sun4">Not Sure</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-next-con pt-0">
+                                    <a class="text-white btn-back">back</a>
+                                    <a class="text-white btn-next">Next</a>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab3">
+                                <h2 class="pb-2">Where would this<br> project take place?</h2>
+                                <div class="input-group">
+                                    <select class="form-control" name="project-place" id="projectplace">
+                                        <option value="Ambit Energy">Ambit Energy</option>
+                                        <option value="Belmont Electric Light Department">Belmont Electric Light
+                                            Department</option>
+                                        <option value="Berkshire Company">Berkshire Company</option>
+                                        <option value="Braintree Electric Light Department">Braintree Electric
+                                            Light Department</option>
+                                        <option value="Chicopee Electric Light Department">Chicopee Electric
+                                            Light Department</option>
+                                        <option value="City of Fitchburg">City of Fitchburg</option>
+                                        <option value="Hingham Light Department">Hingham Light Department
+                                        </option>
+                                        <option value="Holden Municipal Light Department">Holden Municipal Light
+                                            Department</option>
+                                        <option value="Holyoke Gas and Electric">Holyoke Gas and Electric
+                                        </option>
+                                        <option value="Hudson Light and Power">Hudson Light and Power</option>
+                                        <option value="Ipswich Utility Department">Ipswich Utility Department
+                                        </option>
+                                        <option value="Mansfield Municipal Electric">Mansfield Municipal
+                                            Electric</option>
+                                        <option value="Marblehead Electric Light Department">Marblehead Electric
+                                            Light Department</option>
+                                        <option value="Massachusetts Electric">Massachusetts Electric</option>
+                                        <option value="Massachusetts Municipal Wholesale Electric Company (MMWEC)">
+                                            Massachusetts Municipal Wholesale Electric Company (MMWEC)</option>
+                                        <option value="Middleborough Gas and Electric">Middleborough Gas and
+                                            Electric</option>
+                                        <option value="Nantucket Electric">Nantucket Electric</option>
+                                        <option value="National Grid">National Grid</option>
+                                        <option value="North Attleborough Electric Department">North
+                                            Attleborough Electric Department</option>
+                                        <option value="Northeast Utilities">Northeast Utilities</option>
+                                        <option value="Norwood Municipal Light and Power">Norwood Municipal
+                                            Light and Power</option>
+                                        <option value="NSTAR">NSTAR</option>
+                                        <option value="Paxton Municipal Light Department">Paxton Municipal Light
+                                            Department</option>
+                                        <option value="Peabody Municipal Light Plant">Peabody Municipal Light
+                                            Plant</option>
+                                        <option value="Reading Municipal Light Department">Reading Municipal
+                                            Light Department</option>
+                                        <option value="Rowley Electric Light Department">Rowley Electric Light
+                                            Department</option>
+                                        <option value="SELCO">SELCO</option>
+                                        <option value="Sterling Municipal Light Department">Sterling Municipal
+                                            Light Department</option>
+                                        <option value="Taunton Municipal Lighting Plant (TMLP)">Taunton
+                                            Municipal Lighting Plant (TMLP)</option>
+                                        <option value="Templeton Municipal Light Co">Templeton Municipal Light
+                                            Co</option>
+                                        <option value="Wakefield Municipal Gas and Light Department">Wakefield
+                                            Municipal Gas and Light Department</option>
+                                        <option value="Western Massachusetts Electric">Western Massachusetts
+                                            Electric</option>
+                                        <option value="Westfield Gas and Electric Department">Westfield Gas and
+                                            Electric Department</option>
+                                        <option value="Viridian">Viridian</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="btn-next-con">
+                                    <a class="text-white btn-back">back</a>
+                                    <a class="text-white btn-next">Next</a>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab4">
+                                <h2 class="pb-2">
+                                    What is your average monthly electricity bill?</h2>
+                                <div class="input-group">
+                                    <div class="radio-btn-group d-flex w-100 justify-content-center ">
+                                        <div class="radio-btn-group__btn">
+                                            <input id="utilityBill-1" type="radio" name="utilityBill" value="$0-100">
+                                            <label class="radio-label" for="utilityBill-1">0$ - 100$</label>
+                                        </div>
+                                        <div class="radio-btn-group__btn">
+                                            <input id="utilityBill-2" type="radio" name="utilityBill" value="$101-200">
+                                            <label class="radio-label" for="utilityBill-2">100$ - 200$</label>
+                                        </div>
+                                        <div class="radio-btn-group__btn">
+                                            <input id="utilityBill-3" type="radio" name="utilityBill" value="$201-300"
+                                                checked="checked">
+                                            <label class="radio-label" for="utilityBill-3">200$ - 300$</label>
+                                        </div>
+                                        <div class="radio-btn-group__btn">
+                                            <input id="utilityBill-4" type="radio" name="utilityBill" value="$301-400">
+                                            <label class="radio-label" for="utilityBill-4">400$ - 500$</label>
+                                        </div>
+                                        <div class="radio-btn-group__btn">
+                                            <input id="utilityBill-5" type="radio" name="utilityBill" value="$401+">
+                                            <label class="radio-label" for="utilityBill-5">$500+</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-next-con pt-0">
+                                    <a class="text-white btn-back">back</a>
+                                    <a class="text-white btn-next">Next</a>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab5">
+                                <h2 class="pb-2">
+                                    Property Type</h2>
+                                <div class="input-group">
+                                    <div class="radio-btn-group d-flex w-100 justify-content-center ">
+                                        <div class="radio-btn-group__btn">
+                                            <input id="property1" type="radio" name="propertytype" value="Owned">
+                                            <label class="radio-label" for="property1">Owned</label>
+                                        </div>
+                                        <div class="radio-btn-group__btn">
+                                            <input id="property2" type="radio" name="propertytype" value="Rented">
+                                            <label class="radio-label" for="property2">Rented</label>
+                                        </div>
+                                        <div class="radio-btn-group__btn">
+                                            <input id="property3" type="radio" name="propertytype" value="Business"
+                                                checked="checked">
+                                            <label class="radio-label" for="property3">Business</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-next-con pt-0">
+                                    <a class="text-white btn-back">back</a>
+                                    <a class="text-white btn-next">Next</a>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab6">
+                                <h2 class="pb-2">
+                                    What is your name?</h2>
+                                <div class="input-group">
+                                    <input class="form-control" placeholder="First name" type="text" id="name"
+                                        name="name">
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" placeholder="Last name" type="text" id="lastname"
+                                        name="lastname">
+                                </div>
+                                <div class="btn-next-con pt-0">
+                                    <a class="text-white btn-back">back</a>
+                                    <a class="text-white btn-next">Next</a>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab7">
+                                <h2 class="pb-2">
+                                    Personal Information</h2>
+                                <div class="input-group">
+                                    <input class="form-control" placeholder="Phone number" type="text" id="phone"
+                                        name="phone">
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" placeholder="Email" type="email" id="email"
+                                        name="email">
+                                </div>
+                                <div class="btn-next-con pt-0">
+                                    <a class="text-white btn-back">back</a>
+                                    <a class="text-white btn-next">Next</a>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tab8">
+                                <h2 class="pb-2">Address
+                                </h2>
+                                <div class="input-group">
+                                    <input class="form-control" placeholder="City" type="text" id="city" name="city">
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" placeholder="State" type="text" id="state" name="state">
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" placeholder="Zip code" id="zipcode" type="text"
+                                        name="zipcode">
+                                    <input id="foo" type="hidden" value="">
+                                </div>
+
+                                <div class="btn-next-con">
+                                    <a class="text-white btn-back">back</a>
+                                    <button class="text-white btn-last" type="submit">Submit</button>
+                                </div>
+                            </div>
+                        </div>
                     </form>
                 </div>
-                <div class="col-md-7 order-md-2 order-sm-1 order-1">
-                    <img class="w-100 d-block m-auto" src="assets/images/image3.png" alt="">
+                <div class="col-md-6 p-0 wlp-image border-rounded order-md-2 order-sm-1 order-1">
+                    <div class="wlp-layer d-flex justify-content-center align-items-center p-5">
+                        <div>
+                        <h1 class="text-white text-center font-weight-bold color-turgoise pb-3">House Windows Deals</h1>
+                        <p class="text-white text-center lead">Compare Window Replacement Services Near Your Location. Submit the Form To
+                            Start!
+                        </p>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -57,7 +339,8 @@
                         </div>
                         <div class="col-9">
                             <p class="lead p-0 m-0 font-weight-bold pb-2">No strings attached!</p>
-                            <p class="mw-95">We will find window replacement companies for your specific needs, however, if not satisfied you won’t have to move forward.</p>
+                            <p class="mw-95">We will find window replacement companies for your specific needs, however,
+                                if not satisfied you won’t have to move forward.</p>
                         </div>
                     </div>
                 </div>
@@ -96,7 +379,7 @@
 
                 </div>
                 <div class="col-md-6">
-                    <p class="p-3 bg-lightpink">
+                    <p class="p-3 bg-turgoise">
                         <span class="font-weight-bold lead d-block">Save Money and Energy</span><br>
                         Modern windows offer many advantages! They act as strong shields blocking heat in the summer,
                         while keeping warm air inside in the freezing winter days thus directly reducing your spendings
@@ -113,45 +396,43 @@
 
                     </p>
                     <div class="d-flex">
-                        <img class="mr-3" src="assets/images/sm-image-1.png" alt="">
-                        <img src="assets/images/sm-image-2.png" alt="">
+                        <img class="mr-3" src="assets/images/small31.png" alt="">
+                        <img src="assets/images/small32.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="pt-5 pb-5">
-        <div class="container pt-5 pb-5">
-            <h2 class="text-center font-weight-bold h3 pb-2">Ready to get started?</h2>
-            <p class="text-center pb-3">Share the details and fill in the form to get a 100% quote!</p>
+    <footer class="pt-5 pb-5">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-6 ml-auto mr-auto">
-                    <form class="bottom-form">
-                        <div class="form-group">
-                            <input type="text" placeholder="Name" class="form-control" aria-describedby="emailHelp">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Email" class="form-control">
-                        </div>
-                        <button type="submit" class="btn w-50 d-block m-auto btn-next text-white">Submit</button>
-                    </form>
+                <div class="col-6">
+                    <p class="text-white">(c) 2020. All rights reserved. homewindows4u.com</p>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <a class="text-right d-block mr-3 text-decoration-none text-white" href="index.html">Home</a>
+                    <a class="text-right d-block text-decoration-none text-white" href="privacy-policy.html">Privacy
+                        Policy</a>
                 </div>
             </div>
         </div>
-    </section>
-    <footer class="pt-5 pb-5">
-
     </footer>
     <!--Bootstrap JS and jQuery-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+
+    <!-- Form Vendors JS-->
+    <script src="assets/form/jquery.validate.min.js"></script>
+    <script src="assets/form/jquery.bootstrap.wizard.min.js"></script>
+
+    <!-- Form JS-->
+    <script src="assets/form/global.js"></script>
+    <script src="assets/form/send.js"></script>
 </body>
 
 </html>

@@ -26,10 +26,30 @@ main {
 }
 
 .md-image {
-  background: url(../images/md-image.png);
-  background-size: 100%;
+  background: url(../images/big3.png);
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  min-height: 100%;
+}
+
+.wlp-image {
+  background: url(../images/main3.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  width: 100%;
+}
+
+.wlp-layer{
+  background-color: rgba(0, 0, 0, 0.45);
+  height: 100%;
+  width: 100%;
+}
+
+.wlp-layer h1 {
+  font-size: 3rem;
 }
 
 #lp2-main {
@@ -45,19 +65,19 @@ main {
 }
 
 .pro3-box {
-  background: rgba(174, 86, 113, 0.05);
+  background: rgba(175, 203, 211, 0.05);
   max-width: 95%;
   display: block;
   margin: auto;
   min-height: 16rem;
 }
 
-.bg-lightpink {
-  background: rgba(174, 86, 113, 0.05);
+.bg-turgoise {
+  background: rgba(175, 203, 211, 0.05);
 }
 
-.color-pink {
-  color: #AE5671;
+.color-turgoise {
+  color: #AFCBD3;;
 }
 
 .px20 {
