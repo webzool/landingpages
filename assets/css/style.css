@@ -44,6 +44,7 @@ main {
   max-width: 95%;
   display: block;
   margin: auto;
+  min-height: 16rem;
 }
 
 .bg-lightpink {
