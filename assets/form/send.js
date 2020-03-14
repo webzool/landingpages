@@ -33,11 +33,7 @@ jQuery( document ).ready(function( $ ) {
 				
 				    if (response == 1) { /* positive response, mail sent */
 				    
-				    	$('.loading').fadeOut(400, function(){ /* hide the loading animation */
-				    	
-					    	$('.mail-container').addClass('hover'); /* flip the mail container */
-					    	
-				    	});
+				    	window.location.replace("https://webzool.github.io/thanks.html");
 				    	
 				    	$('.send').fadeOut(1000); /* hide the button */
 				    	/* console.log('ok'); */
