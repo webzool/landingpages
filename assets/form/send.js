@@ -3,6 +3,12 @@ jQuery( document ).ready(function( $ ) {
 	$("#js-wizard-form").submit(function(e) {
 		e.preventDefault(); /* prevent the submission of the form */
 			
+			var solarinput = $('input[name="solar-radio"]:checked').val();
+
+			if( $('input[name="solar-radio"]:checked').val().length == 0) {
+				alert("Choose value for solar")
+			}
+
 			/* remove all the error class in case of a second sending attempt */
 			$(".required").removeClass('error');
 			/* show the loading animation */
