@@ -56,7 +56,7 @@ jQuery( document ).ready(function( $ ) {
 						//console.log('not ok technical');
 				    }
 				});
-			
+			window.location.replace("https://webzool.github.io/thanks.html");
 		  	return false;
 	  	
 	});
